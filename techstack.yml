@@ -2,7 +2,7 @@ repo_name: Cryptobeam-USA/Chronicle-Queue-Demo
 report_id: 49584cb586008bc466c909a3e62925f6
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-21T19:43:25+00:00'
+timestamp: '2024-01-05T08:16:44+00:00'
 requested_by: peter-lawrey
 provider: github
 branch: main
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo
   detection_source: Repo Metadata
 - name: Avro
   description: 'A data serialization framework '
@@ -26,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4265/avro.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/simple-avro-example/pom.xml
   detection_source: simple-avro-example/pom.xml
   last_updated_by: Dmitry Pisklov
   last_updated_on: 2019-02-06 14:48:48.000000000 Z
@@ -37,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo
   detection_source: Repo Metadata
 - name: JUnit
   description: A programmer-oriented testing framework for Java
@@ -47,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/pom.xml
   detection_source: pom.xml
   last_updated_by: Catherine Lawrey
   last_updated_on: 2016-07-18 13:46:43.000000000 Z
@@ -72,6 +76,7 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/benchmarks/pom.xml
   detection_source: benchmarks/pom.xml
   last_updated_by: forough.goudarzi
   last_updated_on: 2022-10-09 21:00:02.000000000 Z
@@ -83,6 +88,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/order-processor/src/test/java/town/lost/oms/throughput-test.txt
   detection_source: order-processor/src/test/java/town/lost/oms/throughput-test.txt
   last_updated_by: Peter Lawrey
   last_updated_on: 2019-12-04 19:25:03.000000000 Z
@@ -94,6 +100,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/pom.xml
   detection_source: pom.xml
   last_updated_by: Peter Lawrey
   last_updated_on: 2019-12-03 09:00:47.000000000 Z
@@ -125,6 +132,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/benchmarks/pom.xml
   detection_source: benchmarks/pom.xml
   last_updated_by: Peter Lawrey
   last_updated_on: 2023-05-28 07:24:16.000000000 Z
@@ -149,6 +157,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/benchmarks/pom.xml
   detection_source: benchmarks/pom.xml
   last_updated_by: Peter Lawrey
   last_updated_on: 2023-05-28 07:24:16.000000000 Z
