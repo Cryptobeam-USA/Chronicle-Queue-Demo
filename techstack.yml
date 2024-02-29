@@ -1,0 +1,163 @@
+repo_name: Cryptobeam-USA/Chronicle-Queue-Demo
+report_id: 49584cb586008bc466c909a3e62925f6
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:10:27+00:00'
+requested_by: peter-lawrey
+provider: github
+branch: main
+detected_tools_count: 12
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo
+  detection_source: Repo Metadata
+- name: Avro
+  description: A data serialization framework
+  website_url: https://avro.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4265/avro.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/simple-avro-example/pom.xml
+  detection_source: simple-avro-example/pom.xml
+  last_updated_by: Dmitry Pisklov
+  last_updated_on: 2019-02-06 14:48:48.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Catherine Lawrey
+  last_updated_on: 2016-07-18 13:46:43.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 4.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/account/pom.xml
+  detection_source: account/pom.xml
+  last_updated_by: Peter Lawrey
+  last_updated_on: 2023-06-16 08:54:18.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/benchmarks/pom.xml
+  detection_source: benchmarks/pom.xml
+  last_updated_by: forough.goudarzi
+  last_updated_on: 2022-10-09 21:00:02.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/order-processor/src/test/java/town/lost/oms/throughput-test.txt
+  detection_source: order-processor/src/test/java/town/lost/oms/throughput-test.txt
+  last_updated_by: Peter Lawrey
+  last_updated_on: 2019-12-04 19:25:03.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Peter Lawrey
+  last_updated_on: 2019-12-03 09:00:47.000000000 Z
+- name: org.apache.avro:avro
+  description: Avro core components
+  version: 1.8.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/simple-avro-example/pom.xml
+  detection_source: simple-avro-example/pom.xml
+  last_updated_by: Dmitry Pisklov
+  last_updated_on: 2019-02-06 14:48:48.000000000 Z
+  vulnerabilities:
+  - name: Apache Avro Java SDK vulnerable to Improper Input Validation
+    cve_id: CVE-2023-39410
+    cve_url: https://github.com/advisories/GHSA-rhrv-645h-fjfh
+    detected_date: Sep 30
+    severity: high
+    first_patched: 1.11.3
+- name: org.jetbrains:annotations
+  description: A set of annotations used for code inspection support and code documentation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/benchmarks/pom.xml
+  detection_source: benchmarks/pom.xml
+  last_updated_by: Peter Lawrey
+  last_updated_on: 2023-05-28 07:24:16.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 4.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/account/pom.xml
+  detection_source: account/pom.xml
+  last_updated_by: Peter Lawrey
+  last_updated_on: 2023-06-16 08:54:18.000000000 Z
+- name: org.slf4j:slf4j-simple
+  description: SLF4J Simple binding
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo/blob/main/benchmarks/pom.xml
+  detection_source: benchmarks/pom.xml
+  last_updated_by: Peter Lawrey
+  last_updated_on: 2023-05-28 07:24:16.000000000 Z
