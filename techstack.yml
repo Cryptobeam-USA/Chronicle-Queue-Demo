@@ -2,7 +2,7 @@ repo_name: Cryptobeam-USA/Chronicle-Queue-Demo
 report_id: 49584cb586008bc466c909a3e62925f6
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:16:44+00:00'
+timestamp: '2024-02-29T19:10:27+00:00'
 requested_by: peter-lawrey
 provider: github
 branch: main
@@ -20,7 +20,7 @@ tools:
   detection_source_url: https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo
   detection_source: Repo Metadata
 - name: Avro
-  description: 'A data serialization framework '
+  description: A data serialization framework
   website_url: https://avro.apache.org/
   open_source: false
   hosted_saas: false
