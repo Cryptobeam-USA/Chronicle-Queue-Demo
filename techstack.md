@@ -4,10 +4,10 @@
 Cryptobeam-USA/Chronicle-Queue-Demo is built on the following main stack:
 
 - [Java](https://www.java.com) – Languages
+- [Avro](https://avro.apache.org/) – Serialization Frameworks
 - [JUnit](http://junit.org/) – Testing Frameworks
 - [Mockito](https://site.mockito.org/) – Testing Frameworks
 - [SLF4J](http://slf4j.org/) – Log Management
-- [Avro](https://avro.apache.org/) – Serialization Frameworks
 - [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 
 Full tech stack [here](/techstack.md)
@@ -19,10 +19,10 @@ Full tech stack [here](/techstack.md)
 Cryptobeam-USA/Chronicle-Queue-Demo is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/4265/avro.png' alt='Avro'/> [Avro](https://avro.apache.org/) – Serialization Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/2020/874086.png' alt='JUnit'/> [JUnit](http://junit.org/) – Testing Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg' alt='Mockito'/> [Mockito](https://site.mockito.org/) – Testing Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='SLF4J'/> [SLF4J](http://slf4j.org/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/4265/avro.png' alt='Avro'/> [Avro](https://avro.apache.org/) – Serialization Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
 
 Full tech stack [here](/techstack.md)
@@ -34,7 +34,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [Cryptobeam-USA/Chronicle-Queue-Demo](https://github.com/Cryptobeam-USA/Chronicle-Queue-Demo)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|12<br/>Tools used|01/05/24 <br/>Report generated|
+|12<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
